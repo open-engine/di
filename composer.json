@@ -1,0 +1,35 @@
+{
+    "name": "open-engine/di",
+    "description": "Dependency Injection",
+    "license": "GPL-3.0-or-later",
+    "type": "library",
+    "keywords": [
+        "php",
+        "di",
+        "dependency-injection"
+    ],
+    "authors": [
+        {
+            "name": "Akmal Kadirov",
+            "email": "akmal@kadirov.org",
+            "homepage": "http://kadirov.org/",
+            "role": "Founder and project lead"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+        "php": "~7.2",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "open-engine/run-tests": "~0.1.1",
+        "open-engine/helpers-path": "~0.1.0"
+    }
+}
